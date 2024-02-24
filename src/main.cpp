@@ -16,8 +16,8 @@ ESP8266WiFiMulti wifiMulti;
 // MpesaSTK mpesa(consumer_key, consumer_secret, pass_key);	//defaults to SANDBOX environment
 MpesaSTK mpesa(consumer_key, consumer_secret, pass_key, SANDBOX); // environment can be SANDBOX(default) or PRODUCTION
 
-char *WIFI_SSID = "TUK-WIFI";
-char *WIFI_PASS = "P@ssword@123";
+char *WIFI_SSID = "network";
+char *WIFI_PASS = "manasseh@2003";
 
 void setup()
 {
